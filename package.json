@@ -1,0 +1,27 @@
+{
+  "name": "chatting-application",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "cross-env NODE_NO_WARNINGS=1 http-server -c-1 -p 3000",
+    "test": "npx playwright test",
+    "test:start": "npx playwright test 1.start.spec.ts",
+    "test:layout": "npx playwright test 2.layout.spec.ts",
+    "test:controller": "npx playwright test 3.controller.spec.ts",
+    "postinstall": "npx playwright install --with-deps"
+  },
+  "author": "Yahya Gilany <gilanyym@ucmail.uc.edu>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "bootstrap": "4.5.0",
+    "@faker-js/faker": "^9.4.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.56.0",
+    "expect-playwright": "^0.8.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.5.0",
+    "typescript": "^5.7.3"
+  }
+}

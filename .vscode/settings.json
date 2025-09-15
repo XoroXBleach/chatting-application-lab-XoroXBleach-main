@@ -1,0 +1,24 @@
+{
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll.prettier": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/docs": true
+  }
+}
