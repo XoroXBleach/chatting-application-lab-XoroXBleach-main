@@ -13,10 +13,10 @@
   "author": "Yahya Gilany <gilanyym@ucmail.uc.edu>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "bootstrap": "4.5.0",
     "@faker-js/faker": "^9.4.0",
-    "@playwright/test": "^1.50.1",
+    "@playwright/test": "^1.55.1",
     "@types/node": "^22.13.1",
+    "bootstrap": "4.5.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.56.0",
     "expect-playwright": "^0.8.0",
